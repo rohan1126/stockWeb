@@ -1,0 +1,158 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stock-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.stock-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: #28A745;
+}
+
+img {
+    width: 50px;
+}/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stock-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.stock-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: #28A745;
+}
+
+img {
+    width: 50px;
+
+p{
+    align-items:center;
+}
+
+}
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    li {
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+
+    .stock-list {
+        display: block;
+    }
+
+    .stock-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: 30px;
+    }
+}
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    li {
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+
+    .stock-list {
+        display: block;
+    }
+
+    .stock-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: 30px;
+    }
+}
